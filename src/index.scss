@@ -1,0 +1,35 @@
+
+.app{
+  width: 1900px;
+  height: 982px;
+}
+.main{
+  padding-top: 71px;
+  padding-left: 70px;
+  width: 952px;
+
+  display: flex;
+justify-content: space-between;
+
+  background: linear-gradient(104.6deg, #AFE7FF 0.78%, rgba(225,169,241) 98.94%,rgba(255, 21, 218) 98.94%);
+  height: 450px;
+
+  border-radius: 50px;
+  li{
+    list-style-type: none;
+  }
+  ul{
+    display: flex;
+    text-indent: 30px;
+  }
+  p{
+    
+    font-weight: 400;
+    font-size: 20px;
+  }
+  img{
+   margin-top: 10px;
+    width: 125px;
+    height: 127px;
+  }
+}
