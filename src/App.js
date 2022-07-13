@@ -22,12 +22,11 @@ function App() {
           <div className="title">
             <div className="text">
               <h1>
-                FOR EVERY STEP, <br></br>{" "}
+                FOR EVERY STEP, <br></br>
                 <b>
                   WE HAVE <br></br>SOMETHING
                 </b>
               </h1>
-
               <div className="click">
                 <button>
                   <b>SHOP</b>
@@ -35,7 +34,6 @@ function App() {
                 <img src="/img/bold.png" alt="bold" />
               </div>
             </div>
-
             <div className="p1">
               <img src="/img/main.png" alt="" />
             </div>

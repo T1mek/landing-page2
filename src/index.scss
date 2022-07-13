@@ -5,111 +5,102 @@
 .app {
   width: 1900px;
   height: 982px;
-}
-.main {
-  width: 1900px;
-  height: 982px;
+  .main {
+    width: 1900px;
+    height: 982px;
+    background: linear-gradient(
+      104.6deg,
+      #afe7ff 0.78%,
+      rgba(225, 169, 241) 98.94%,
+      rgba(255, 21, 218, 98.94%)
+    );
+    border-radius: 50px;
+    .header {
+      display: flex;
+      justify-content: space-between;
 
-  background: linear-gradient(
-    104.6deg,
-    #afe7ff 0.78%,
-    rgba(225, 169, 241) 98.94%,
-    rgba(255, 21, 218, 98.94%)
-  );
-  .picture {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .click {
-    margin: 119px;
-    width: 435px;
-    display: flex;
-    justify-content: space-between;
-    height: 106px;
-    img {
-      height: 87px;
-      width: 76px;
-      cursor: pointer;
-    }
-    button {
-      width: 210px;
-      height: 106px;
-      border-radius: 20px;
-      border: 0px solid white;
-      cursor: pointer;
-      b {
+      li {
+        list-style-type: none;
+        cursor: pointer;
+      }
+      ul {
+        display: flex;
+        text-indent: 80px;
+        margin-top: 73px;
         font-size: 40px;
-        font-weight: bolder;
+        padding-left: 300px;
+        
+      }
+      .logo {
+        margin-top: 34px;
+        margin-left: 81px;
+        width: 125px;
+        height: 127px;
+        display: flex;
+        p {
+          font-size: 35px;
+          display: inline-block;
+          font-weight: 400;
+          white-space: pre;
+          margin-top: 41px;
+          font-family: "Istok Web", sans-serif;
+        }
+      }
+      .search {
+        width: 85px;
+        height: 86px;
+        margin-right: 89px;
+        margin-top: 54px;
+        cursor: pointer;
+      }
+    }
+
+    .footer {
+      margin-right: 80px;
+      margin-top: 5px;
+      height: 850px;
+      .title {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+          margin-left: 81px;
+          margin-top: 140px;
+          font-size: 60px;
+          font-weight: 400;
+
+          b {
+            font-size: 80px;
+            white-space: pre-wrap;
+          }
+        }
+        .click {
+          margin: 119px;
+          width: 435px;
+          display: flex;
+          justify-content: space-between;
+          height: 106px;
+          img {
+            height: 87px;
+            width: 76px;
+            cursor: pointer;
+          }
+          button {
+            width: 210px;
+            height: 106px;
+            border-radius: 20px;
+            border: 0px solid white;
+            cursor: pointer;
+            b {
+              font-size: 40px;
+              font-weight: bolder;
+            }
+          }
+        }
+        .p1 {
+          padding-top: 75px;
+        }
       }
     }
   }
-  border-radius: 50px;
-  .title {
-    display: flex;
-    justify-content: space-between;
-    
-    h1 {
-      margin-left: 81px;
-      margin-top: 140px;
-      font-size: 60px;
-      font-weight: 400;
-
-      b {
-        font-size: 80px;
-        white-space: pre-wrap;
-      }
-    }
-  }
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-
-  li {
-    list-style-type: none;
-  }
-  ul {
-    display: flex;
-    text-indent: 80px;
-    margin-top: 73px;
-    font-size: 40px;
-    padding-left: 300px;
-    cursor: pointer;
-  }
-
-  .search {
-    width: 85px;
-    height: 86px;
-    margin-right: 89px;
-    margin-top: 54px;
-    cursor: pointer;
-  }
-  .logo {
-    margin-top: 34px;
-    margin-left: 81px;
-    width: 125px;
-    height: 127px;
-    display: flex;
-    p {
-      font-size: 35px;
-      display: inline-block;
-      font-weight: 400;
-      white-space: pre;
-      margin-top: 41px;
-      font-family: "Istok Web", sans-serif;
-    }
-  }
-}
-.footer{
-  margin-right: 80px;
-  margin-top: 5px;
-  height: 850px;
-  
-}
-.text{
-  padding-top: 0%;
-}
-.p1{
-  padding-top: 75px;
 }
